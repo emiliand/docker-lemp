@@ -13,4 +13,4 @@ interactive: stop
 	docker-compose up --build
 
 clean:
-	rm -rf ./db/data/*
+	sudo rm -rf ./private/* &&	sudo rm -rf ./db/data/*

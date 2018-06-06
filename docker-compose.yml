@@ -21,6 +21,7 @@ services:
     restart: always
     volumes:
       - ./app:/app:rw
+      - ./private:/private:rw
     links:
       - db
 

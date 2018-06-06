@@ -17,6 +17,11 @@ It's purely for dev / testing / fun purposes.
     * Password: password
     * Database Name: application
 
+### TODO
+- drush
+- phpmyadmin
+- easy switch to apache2
+
 ### Installing PHP modules
 Edit: `./php/Dockerfile` and add the module name to a new
 `RUN` instruction line. For example to add the `redis` PHP module:
