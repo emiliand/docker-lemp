@@ -23,7 +23,7 @@ PhpMyAdmin port :8081
 Drush is accessible from the root of repository `drush command`
 
 ### TODO
-- easy switch to apache2
+- drupal console
 
 ### Installing PHP modules
 Edit: `./php/Dockerfile` and add the module name to a new
