@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Save this to a file named "drush" (not "drush.sh") and put it in the same
+# directory as your docker-compose file. Replace "SERVICE" with your docker
+# container's name.
+
+# Now every time you run "drush" from this directory, it runs drush inside
+# your container instead. Cool!
+
+docker-compose run drush drush $@

@@ -33,3 +33,9 @@ services:
     restart: always
     volumes:
       - ./db/data:/var/lib/mysql
+
+  drush:
+    image: drupaldocker/drush:8
+    working_dir: /app
+    volumes:
+      - ./app:/app:rw
