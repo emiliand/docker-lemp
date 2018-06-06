@@ -17,9 +17,12 @@ It's purely for dev / testing / fun purposes.
     * Password: password
     * Database Name: application
 
+Navigate to localhost:8080
+Application port :8080
+PhpMyAdmin port :8081
+Drush is accessible from the root of repository `drush command`
+
 ### TODO
-- drush
-- phpmyadmin
 - easy switch to apache2
 
 ### Installing PHP modules

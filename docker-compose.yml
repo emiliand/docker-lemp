@@ -39,3 +39,12 @@ services:
     working_dir: /app
     volumes:
       - ./app:/app:rw
+
+  pma:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+    ports:
+      - '8081:80'
+    links:
+      - db
