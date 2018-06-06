@@ -1,5 +1,5 @@
 
-.PHONY: up clean reset
+.PHONY: up clean
 
 all: stop up
 
@@ -13,7 +13,4 @@ interactive: stop
 	docker-compose up --build
 
 clean:
-	rm -rf ./app/* && rm -rf ./db/data/*
-
-reset: stop clean
-	git reset head --hard
+	rm -rf ./db/data/*
