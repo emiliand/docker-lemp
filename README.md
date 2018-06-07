@@ -44,4 +44,4 @@ bit quicker / safer:
 * `make up` builds and brings the cluster up
 * `make stop` you guessed it: stops the cluster
 * `make interactive` brings the cluster up in the foreground
-* `make clean` removes the contents of `./db/data` - **DESTRUCTIVE**
+* `make clean` removes the contents of `./private` and `./db/data` - **DESTRUCTIVE**
